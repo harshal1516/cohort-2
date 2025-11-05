@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 1fr 0.5fr 0.5fr;
+    
+}
+
+header {
+    background-color: crimson;
+}
+
+section {
+    background-color: lightblue;
+
+}
+
+#div-left{ 
+    background-color: rgb(255, 232, 182);
+
+
+}
+ #div-right{
+    background-color: lightpink;
+
+}
+#bottom-up{
+    background-color: lightgreen;
+
+}
+#bottom-down{
+    background-color: lightgray;
+
+}
