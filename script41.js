@@ -88,6 +88,3 @@ let obj1 = {
   },
 };
 
-let {city} = obj1.user.address;
-console.log(city);
-// This code defines an object obj1 with a nested structure. It then uses destructuring to extract the city property from the nested address object. The line let {city} = obj1.user.address; assigns the value of city from obj1.user.address to the variable city. Finally, it logs the value of city, which is "Pune", to the console.
