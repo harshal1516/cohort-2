@@ -7,12 +7,24 @@ CHANGING CSS
 EVENTS LISTENERS */
 
  var h1 = document.querySelector("h1")
- var h2 = document.querySelector("h2")
- h1.innerHTML= "Hello World" // This will change the content of h1 to "Hello World"
- h2.innerHTML= "Welcome to DOM Manipulation" // This will change the content of h2 to "Welcome to DOM Manipulation"
+ var h2 = document.querySelector("button")
+ h1.innerHTML= "Hello GOTHAM!" // This will change the content of h1 to "Hello World"
+//  h2.innerHTML= "Welcome to DOM Manipulation" // This will change the content of h2 to "Welcome to DOM Manipulation"
  
 
- h1.style.color = "red" // This will change the color of h1 to red
- h1.style.backgroundColor = "yellow" // This will change the background color of h1 to yellow
- h2.style.color = "blue" // This will change the color of h2 to blue
- h2.style.backgroundColor = "lightgray" // This will change the background color of h2 to light gray
+//  h1.style.color = "pink" // This will change the color of h1 to red
+//  h1.style.backgroundColor = "red" // This will change the background color of h1 to yellow
+//  h2.style.color = "red" // This will change the color of h2 to blue
+//  h2.style.backgroundColor = "green" // This will change the background color of h2 to light gray
+
+// var box = document.querySelector("#box")
+//  box.innerHTML = "hey there" // This will change the content of the div with id "box" to "hey there"
+//  box.style.backgroundColor = "blue" // This will change the background color of the div with id "box" to blue
+//     box.style.width = "200px" // This will change the width of the div with id "box" to 200px 
+
+
+h2.addEventListener('click',function(){
+    console.log('HEllo BATMAN');
+    
+h1.style.fontSize='60px'
+})
