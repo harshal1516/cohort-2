@@ -35,7 +35,7 @@ var dec= document.querySelector('#dec')
 var h2 = document.querySelector('h2')
 var a =0
 
-inc.addEventListener('click',function(){
+inc.addEventListener('click',function(){o
     a++
     console.log(a);
     h2.innerHTML = a
