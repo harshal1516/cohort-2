@@ -6,9 +6,9 @@ CHANGIG html
 CHANGING CSS
 EVENTS LISTENERS */
 
- var h1 = document.querySelector("h1")
- var h2 = document.querySelector("button")
- h1.innerHTML= "Hello GOTHAM!" // This will change the content of h1 to "Hello World"
+//  var h1 = document.querySelector("h1")
+//  var h2 = document.querySelector("button")
+//  h1.innerHTML= "Hello GOTHAM!" // This will change the content of h1 to "Hello World"
 //  h2.innerHTML= "Welcome to DOM Manipulation" // This will change the content of h2 to "Welcome to DOM Manipulation"
  
 
@@ -23,8 +23,31 @@ EVENTS LISTENERS */
 //     box.style.width = "200px" // This will change the width of the div with id "box" to 200px 
 
 
-h2.addEventListener('click',function(){
-    console.log('HEllo BATMAN');
+// h2.addEventListener('click',function(){
+//     console.log('HEllo BATMAN');
     
-h1.style.fontSize='60px'
+// h1.style.fontSize='60px'
+// })
+
+var inc= document.querySelector('#inc')
+var dec= document.querySelector('#dec')
+
+var h2 = document.querySelector('h2')
+var a =0
+
+inc.addEventListener('click',function(){
+    a++
+    console.log(a);
+    h2.innerHTML = a
+    
+
+})
+
+
+dec.addEventListener('click',function(){
+    a--
+    console.log(a);
+    h2.innerHTML = a
+    
+
 })
