@@ -8,7 +8,9 @@ html,body{
     height: 100%;
     width: 100%;
 }
-body{
+main{
+    height: 100%;
+    width: 100%;
     background-color: #111;
     display: flex;
     align-items: center;
@@ -17,14 +19,23 @@ body{
     flex-direction: column;
 
 }
-#box{
+/* #box{
     height: 200px;
     width: 200px;
     background-color: rgb(197, 109, 21);
     border: 2px solid white ;
-border-radius: 10px;
+border-radius: 10px; }*/
 
-} 
+h1{
+    font-size: 50px;
+    background-color: lightseagreen;
+    padding: 40px 50px;
+    border-radius: 10px;
+    color: white;
+    font-family: monospace;
+
+
+}
 button{
     padding: 10px 20px;
     background-color: crimson;
@@ -35,5 +46,5 @@ button{
 
 button:active{
     scale: 0.95;
-    background-color: green;
+    /* background-color: green; */
 }
