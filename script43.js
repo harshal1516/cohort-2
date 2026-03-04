@@ -14,38 +14,38 @@
 
 // })
 
-// var arr =['vedant','Harshal', 'Abhi','Manik','Bhatt','Emu']
+var arr =['vedant','Harshal', 'Abhi','Manik','Bhatt','Emu']
 
-// var a= Math.floor(Math.random()*arr.length)
+var a= Math.floor(Math.random()*arr.length)
 
-// console.log(arr[a]);
+console.log(arr[a]);
 
-var arr = [
-    {
-        team:'CSK',
-        primary:'yellow',
-        secondary:'blue',
+// var arr = [
+//     {
+//         team:'CSK',
+//         primary:'yellow',
+//         secondary:'blue',
 
-    },
-    {
-        team:'RCB',
-        primary:'Red',
-        secondary:'Black',
+//     },
+//     {
+//         team:'RCB',
+//         primary:'Red',
+//         secondary:'Black',
 
 
-    },
-    {
-        team:'MI',
-        primary:'Blue',
-        secondary:'Gold',
+//     },
+//     {
+//         team:'MI',
+//         primary:'Blue',
+//         secondary:'Gold',
 
-    },
+//     },
     
-    {
-        team:'KKR',
-        primary:'Purple',
-        secondary:'Gold',
+//     {
+//         team:'KKR',
+//         primary:'Purple',
+//         secondary:'Gold',
 
-    }
-]
-console.log(arr[2].team);
+//     }
+// ]
+// console.log(arr[2].team);
