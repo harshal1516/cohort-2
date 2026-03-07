@@ -27,7 +27,8 @@ button{
     border: none;
     cursor: pointer;
     border-radius: 5px;
-
+    position: relative;
+    z-index: 9;
 
 }
 button:active{
