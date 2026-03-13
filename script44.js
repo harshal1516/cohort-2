@@ -33,7 +33,7 @@ var x = Math.random()*100
 var y = Math.random()*100
 var r = Math.random()*360
 
-var c1 = Math.floor(Math.random()*256)
+var c1 = Math.floor(Math.random()*256) 
 var c2 = Math.floor(Math.random()*256)
 var c3 = Math.floor(Math.random()*256)
 
