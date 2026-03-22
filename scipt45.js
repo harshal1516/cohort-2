@@ -20,13 +20,30 @@
 // },1100)
 // clearInterval(int)
 
-var a = 0
-var int = setInterval(()=>{
-    a++
-    console.log(a);
+// var a = 0
+// var int = setInterval(()=>{
+//     a++
+//     console.log(a);
     
-},100);
+// },100);
 
-setTimeout(()=>{
-    clearInterval(int)
-},5000);
+// setTimeout(()=>{
+//     clearInterval(int)
+// },5000);
+
+var grow =0
+var btn=document.querySelector('button')
+var h2=document.querySelector('h2')
+var inner=document.querySelector('.inner')
+
+btn.addEventListener('click',function(){
+  var int =  setInterval(() => {
+        grow++
+        h2.innerHTML = grow+'%'
+        inner.style.width=grow+'%'
+    }, 50);
+    setTimeout(() => {
+        clearInterval(int)
+    }, 5000);
+
+})
