@@ -1,15 +1,9 @@
-var chutki = document.querySelector('img');
-var msg = document.querySelector('h2 span')
-var body = document.body
-chutki.addEventListener('mouseenter', function() {
-msg.innerHTML='bheem se door hato'
-    body.style.backgroundColor='red'
+var main = document.querySelector('#main');
+var cursor = document.querySelector('#cursor')
 
-})
-
-chutki.addEventListener('mouseleave', function() {
-    msg.innerHTML='door hi rehna'
-    body.style.backgroundColor='black'
-
+main.addEventListener('mousemove', function(dets) {
+ 
+    cursor.style.left=dets.x+'px'
+    cursor.style.top=dets.y+'px'
 })
 

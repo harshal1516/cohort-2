@@ -9,8 +9,16 @@ html,body{
     height: 100%;
     width: 100%;
     background-color: black;
+    cursor: none;
 }
-img{
-    height: 300px ;
+#main{
+    height: 200% ;
+    width: 100%;
     
+}
+
+#cursor{
+    height: 20px;
+    position: fixed;
+    transform: translate(-50%,-50%);
 }
