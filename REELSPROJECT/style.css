@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color:rgb(128, 37, 37);
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to right bottom ,rgb(122, 92, 92));
+}
+
+section{
+    height: 100%;
+    width: 350px;
+    background-color: rgb(45, 2, 2);
+    border-radius: 10px;
+    margin: auto;
+        /* overflow: hidden;  */
+
+}
+
+.all-reels{
+    height: 100%;
+    width: 100%;
+    background-color: crimson;
+}
+
+.reel{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: lightblue;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.reel img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.reel .bottom{
+    padding: 30px 20px;
+    background: linear-gradient(rgb(0, 0, 0),);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.bottom .user{
+    display: flex;
+    align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+
+}
+
+.bottom .user img{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+.bottom>h3{
+    color:rgb(145, 78, 42);
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+
+.bottom .user h4{
+font-size: 15px;
+font-weight: 500;
+;
+}
+.bottom .user button{
+    background-color: transparent;
+    padding: 2px,4px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 2px;
+    border: 1px solid white;
+    color: white;
+}
+.right{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    width: 40px;
+    position: absolute;
+    right: 0;
+    transform: translate(100%);
+
+}
+.right i {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.right h6{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
