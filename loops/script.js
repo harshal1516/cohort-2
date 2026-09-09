@@ -1,6 +1,6 @@
-// for (let i =10; i>0;i--){// start ;end;change;{ }
-// console.log(i);
-// }
+for (let i =10; i>0;i--){// start ;end;change;{ }
+console.log(i);
+}
 
 // now while loop 
 
@@ -9,13 +9,13 @@
 // code
 // change}
 
-let i = 10;
-while(i>0){
+// let i = 10;
+// while(i>0){
   
-    console.log(i);
-      i--
+//     console.log(i);
+//       i--
     
-}
+// }
 
 // for (let i=1; i<21; i++){
 // if (i%2 === 0){
