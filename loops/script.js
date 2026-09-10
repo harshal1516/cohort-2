@@ -1,6 +1,6 @@
-for (let i =10; i>0;i--){// start ;end;change;{ }
-console.log(i);
-}
+// for (let i =10; i>0;i--){// start ;end;change;{ }
+// console.log(i);
+// }
 
 // now while loop 
 
@@ -32,3 +32,10 @@ console.log(i);
 //     i++
     
 // }
+
+//table of five
+
+for (let i =1; i<11; i++){
+    console.log(`5 * ${i} = ${5 *i}`);
+    
+}
