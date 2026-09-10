@@ -35,7 +35,38 @@
 
 //table of five
 
-for (let i =1; i<11; i++){
-    console.log(`5 * ${i} = ${5 *i}`);
+// for (let i =1; i<11; i++){
+//     console.log(`5 * ${i} = ${5 *i}`);
     
-}
+// }
+
+// let sum = 0 ;
+// for (let i =1; i<101;i++){
+//     sum =sum + i;   
+// }
+// console.log(sum );// sum of numbeer from 1 to 100
+
+//1 to 50 number that are divisible by 3 
+
+// for (i=1;i<51;i++)
+// {
+//     if (i%3===0){
+//         console.log(i);
+        
+
+//     }
+// }
+
+//given number is odd or even
+
+
+let val = prompt("give a number");
+// for (let i = 1; i<=val; i++){
+    if(val%2 ===0){
+        console.log(`${val} is even no`);
+        
+    }else{
+        console.log(`${val} is odd no`);
+        
+    }
+// }
