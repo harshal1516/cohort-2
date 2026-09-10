@@ -60,13 +60,22 @@
 //given number is odd or even
 
 
-let val = prompt("give a number");
-// for (let i = 1; i<=val; i++){
-    if(val%2 ===0){
-        console.log(`${val} is even no`);
+// let val = prompt("give a number");
+// // for (let i = 1; i<=val; i++){
+//     if(val%2 ===0){
+//         console.log(`${val} is even no`);
         
-    }else{
-        console.log(`${val} is odd no`);
+//     }else{
+//         console.log(`${val} is odd no`);
+        
+//     }
+// // }
+
+//divisibel no from 1 to 100 by 3 nd 5
+
+for(let i =1;i<101;i++){
+    if(i%3===0 && i%5===0){
+        console.log(i);
         
     }
-// }
+}
