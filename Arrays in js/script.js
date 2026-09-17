@@ -47,3 +47,12 @@
 // })
 // jab bhi apko aisa koi case dikh jaye jaha par ek array se naya array banan and wo naya array kuch values ko rakhega tap map lagega
 
+//now filter 
+
+let arr =[ 1,2,3,4,5,6,7,8];
+
+let newarr=arr.filter(function(val){
+    if (val>4) return  true;
+
+}
+);
