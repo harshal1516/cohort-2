@@ -59,10 +59,18 @@
 
 //now reduce 
 
+// let arr = [1,2,3,4,5,6];
+
+// let ans = arr.reduce(function(accumulator,val)
+// {
+//     return accumulator+val;
+
+// },0);
+
+//now find 
+
 let arr = [1,2,3,4,5,6];
 
-let ans = arr.reduce(function(accumulator,val)
-{
-    return accumulator+val;
-
-},0);
+let val = arr.find (function(val){
+    return val ===1
+})
