@@ -40,8 +40,10 @@
 
 // map dikhte hi saath mein ek blank array bana liye kro 
 
-let arr = [11,23,4,5,55,];
-let newarr = arr.map(function (val){
-    if (val>10) 
-    return 12 // return krna is mandatory
-})
+// let arr = [11,23,4,5,55,];
+// let newarr = arr.map(function (val){
+//     if (val>10) 
+//     return 12 // return krna is mandatory
+// })
+// jab bhi apko aisa koi case dikh jaye jaha par ek array se naya array banan and wo naya array kuch values ko rakhega tap map lagega
+
