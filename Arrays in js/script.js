@@ -69,8 +69,17 @@
 
 //now find 
 
-let arr = [1,2,3,4,5,6];
+// let arr = [1,2,3,4,5,6];
 
-let val = arr.find (function(val){
-    return val ===1
-})
+// let val = arr.find (function(val){
+//     return val ===1
+// })
+
+
+// now some
+
+let arr = [10,30,32,90];
+let any = arr.some(function(val){
+    return val>85;
+
+});
