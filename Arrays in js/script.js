@@ -78,8 +78,17 @@
 
 // now some
 
-let arr = [10,30,32,90];
-let any = arr.some(function(val){
-    return val>85;
+// let arr = [10,30,32,90];
+// let any = arr.some(function(val){
+//     return val>85;
 
+// });
+
+// now every method this checks that every value should pass the condition
+
+
+let arr = [10,30,32,90];
+
+let eve= arr.every(function(val){
+    return val >15;
 });
