@@ -49,10 +49,20 @@
 
 //now filter 
 
-let arr =[ 1,2,3,4,5,6,7,8];
+// let arr =[ 1,2,3,4,5,6,7,8];
 
-let newarr=arr.filter(function(val){
-    if (val>4) return  true;
+// let newarr=arr.filter(function(val){
+//     if (val>4) return  true;
 
-}
-);
+// }
+// );
+
+//now reduce 
+
+let arr = [1,2,3,4,5,6];
+
+let ans = arr.reduce(function(accumulator,val)
+{
+    return accumulator+val;
+
+},0);
