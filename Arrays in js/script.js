@@ -87,8 +87,13 @@
 // now every method this checks that every value should pass the condition
 
 
-let arr = [10,30,32,90];
+// let arr = [10,30,32,90];
 
-let eve= arr.every(function(val){
-    return val >15;
-});
+// let eve= arr.every(function(val){
+//     return val >15;
+// });
+
+//now destructing process
+
+let arr = [1,2,3,4,5];
+ let [a,b,,c]=arr;
