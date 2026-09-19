@@ -95,5 +95,14 @@
 
 //now destructing process
 
-let arr = [1,2,3,4,5];
- let [a,b,,c]=arr;
+// let arr = [1,2,3,4,5];
+//  let [a,b,,c]=arr;
+
+// now spread operator 
+
+let arr =[1,2,3,4,5,6,7,8,9];
+
+// let arr2 =arr;// refernce value will be in the arr2
+
+let arr2 = [...arr]// this will copy the whole array into this ... is the spread operator
+//  also there will be no change in the main array if the change is made in the reference array.
