@@ -100,9 +100,27 @@
 
 // now spread operator 
 
-let arr =[1,2,3,4,5,6,7,8,9];
+// let arr =[1,2,3,4,5,6,7,8,9];
 
 // let arr2 =arr;// refernce value will be in the arr2
 
-let arr2 = [...arr]// this will copy the whole array into this ... is the spread operator
+// let arr2 = [...arr]// this will copy the whole array into this ... is the spread operator
 //  also there will be no change in the main array if the change is made in the reference array.
+
+// let items = [1,2,3,4,5,6];
+// let newarr = items.slice(2,5);
+// console.log(newarr);
+
+// let names = ["a","r","e","w","c"]
+//   names.sort().reverse();
+
+// let arr = [1,2,3,4,5,6,7];
+// let newarr = arr.map(function(val)
+// {
+//     return val*val;
+// })
+
+let arr =[2,3,4,45,6,66];
+let newarr = arr.filter((val)=>{
+    return val>10;
+})
