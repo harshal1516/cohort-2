@@ -111,14 +111,14 @@
 // let newarr = items.slice(2,5);
 // console.log(newarr);
 
-// let names = ["a","r","e","w","c"]
-//   names.sort().reverse();
+let names = ["a","r","e","w","c"]
+  names.sort().reverse();
 
-let arr = [1,2,3,4,5,6,7];
-let newarr = arr.map(function(val)
-{
-    return val*val;
-})
+// let arr = [1,2,3,4,5,6,7];
+// let newarr = arr.map(function(val)
+// {
+//     return val*val;
+// })
 
 // let arr =[2,3,4,45,6,66];
 // let newarr = arr.filter((val)=>{
