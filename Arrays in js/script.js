@@ -132,6 +132,12 @@ let obj ={
     name:"harsh",
     age:23,
     khana:"dal bhat",
+    address:{
+         location:{
+        lng:445,
+        lat:66,
+    },
+    },
 };
-let aa ="name";
-obj [aa]
+
+obj.address.location.lng;
