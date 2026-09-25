@@ -140,4 +140,4 @@ let obj ={
     },
 };
 
-obj.address.location.lng;
+let {lat,lng}=obj.address.location;
