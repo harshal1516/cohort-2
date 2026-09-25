@@ -95,8 +95,8 @@
 
 // now destructing process
 
-let arr = [1,2,3,4,5];
- let [a,b,,c]=arr;
+// let arr = [1,2,3,4,5];
+//  let [a,b,,c]=arr;
 
 // now spread operator 
 
@@ -124,3 +124,14 @@ let arr = [1,2,3,4,5];
 // let newarr = arr.filter((val)=>{
 //     return val>10;
 // })
+
+
+//now OBJECTS {}
+
+let obj ={
+    name:"harsh",
+    age:23,
+    khana:"dal bhat",
+};
+let aa ="name";
+obj [aa]
