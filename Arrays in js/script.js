@@ -128,16 +128,16 @@
 
 //now OBJECTS {}
 
-let obj ={
-    name:"harsh",
-    age:23,
-    khana:"dal bhat",
-    address:{
-         location:{
-        lng:445,
-        lat:66,
-    },
-    },
-};
+// let obj ={
+//     name:"harsh",
+//     age:23,
+//     khana:"dal bhat",
+//     address:{
+//          location:{
+//         lng:445,
+//         lat:66,
+//     },
+//     },
+// };
 
-let {lat,lng}=obj.address.location;
+// let {lat,lng}=obj.address.location;
